@@ -1,7 +1,12 @@
-# scrollTo
-Scrolls to a particular vertical coordinates in the document.
+## scrollTo
+Scrolls to a particular vertical coordinates in the document.   
 
-# Usage
+## Install
+```
+bower install scrollTo --save
+```
+
+## Usage
 Include scrollTo.js in your markup. Call `scrollTo` at anytime.
 ```html
 <script type="text/javascript" src="path/to/scrollTo.js"></script>
@@ -14,5 +19,5 @@ Include scrollTo.js in your markup. Call `scrollTo` at anytime.
 </script>
 ```
 
-#License
+## License
 This project is available under the [MIT](https://opensource.org/licenses/mit-license.php) license.
