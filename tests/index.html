@@ -37,14 +37,11 @@
     <p>Nam illo qui possimus eius delectus hic pariatur provident eos, sed harum natus facilis inventore! Blanditiis, nesciunt. Ullam tenetur ducimus, officia minus unde, nemo sapiente soluta impedit sed, fugiat provident!</p>
     <p>Distinctio temporibus odio animi, perferendis nesciunt sunt cumque quibusdam quos harum suscipit dolore! Officia minima modi optio cupiditate, exercitationem consequuntur quaerat atque minus suscipit totam dicta labore neque, accusamus deserunt.</p>
     <p>Dolore, dolores! Placeat sit hic beatae consequatur iusto nemo praesentium quam? Obcaecati similique repellat ex eveniet odit doloribus dolores aut modi vel rem tempora, quae libero dignissimos placeat, harum dolorem.</p>
-    <button class="btn">Back to Top</button>
+    <button id="btn">Back to Top</button>
   </div>
 
 <script type="text/javascript"> 
-  document.querySelector('body').onclick = function () {
-    // alert('body: ' + document.body.scrollTop + ' | ' + 'html: ' + document.documentElement.scrollTop);
-  };
-  var btn = document.querySelector('button');
+  var btn = document.getElementById('btn');
   btn.onclick = function () {
     scrollTo(0, 300);
   };

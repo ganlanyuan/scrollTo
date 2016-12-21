@@ -1,4 +1,5 @@
 ## scrollTo
+![version](https://img.shields.io/badge/Version-1.0.0-green.svg)   
 Scrolls to a particular vertical coordinates in the document.   
 
 ## Install
@@ -18,6 +19,13 @@ Include scrollTo.js in your markup. Call `scrollTo` at anytime.
   };
 </script>
 ```
+
+## Capability
+IE6+  
+Firefox3.6+  
+Chrome15+  
+Opera12.1+  
+Safari4+  
 
 ## License
 This project is available under the [MIT](https://opensource.org/licenses/mit-license.php) license.
