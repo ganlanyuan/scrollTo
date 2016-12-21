@@ -3,9 +3,7 @@
 Scrolls to a particular vertical coordinates in the document.   
 
 ## Install
-```
-bower install scrollTo --save
-```
+`bower install scrollTo` or `npm install scrollto-js`
 
 ## Usage
 Include scrollTo.js in your markup. Call `scrollTo` at anytime.
